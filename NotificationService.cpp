@@ -7,6 +7,16 @@
 
 using namespace std;
 
+// Client 
+//   ↓
+// NotificationManager (Orchestrator + Validation)
+//   ↓
+// PermissionValidator (Client permission checks)
+//   ↓
+// NotificationChannelRegistry (Service registry)
+//   ↓
+// NotificationService implementations (Email, SMS, Push)
+
 // ==================== ENUMS ====================
 
 enum class Channel {
