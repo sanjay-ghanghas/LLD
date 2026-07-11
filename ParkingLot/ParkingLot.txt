@@ -1,0 +1,25 @@
+parkinglot/
+├── enums/
+│   ├── VehicleType.java
+│   ├── SpotType.java
+│   └── PaymentStatus.java
+│
+├── models/
+│   ├── Vehicle.java
+│   ├── ParkingSpot.java
+│   ├── ParkingFloor.java
+│   ├── ParkingTicket.java
+│   └── ParkingLot.java
+│
+├── strategy/
+│   ├── VehicleAllocationStrategy.java
+│   └── ConfigBasedVehicleAllocationStrategy.java
+│
+├── service/
+│   ├── ParkingSpotManager.java
+│   ├── FeeCalculator.java
+│   ├── PaymentService.java
+│   ├── CardPaymentService.java
+│   └── TicketService.java
+│
+└── Main.java
